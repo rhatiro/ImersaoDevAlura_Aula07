@@ -1,5 +1,9 @@
 # SuperTrunfo - Lógica do jogo
 
+### Demonstração
+
+![](demo.gif)
+
 https://imersao.dev/aulas/aula07-supertrunfo
 
 ### Conteúdo detalhado desta aula:
