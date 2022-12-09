@@ -16,9 +16,26 @@ https://imersao.dev/aulas/aula07-supertrunfo
 
 ### Desafios desta aula!
 
-- [ ] Verificar o que acontece caso você não selecione nenhum dos atributos e como solucionar;
-- [ ] Utilizar personagens que você gosta para criar as cartas e compartilhe com o pessoal lá na comunidade do Discord!
-- [ ] Adicionar a imagem do personagem assim que você selecionar a carta dele.
+- [x] Verificar o que acontece caso você não selecione nenhum dos atributos e como solucionar;
+
+```html
+<button type="button" id="btnJogar" onclick="jogar()" disabled="true">
+  Jogar
+</button>
+```
+
+```js
+onclick = "botaoJogar()";
+```
+
+```js
+function botaoJogar() {
+  document.getElementById("btnJogar").disabled = false;
+}
+```
+
+- [x] Utilizar personagens que você gosta para criar as cartas e compartilhe com o pessoal lá na comunidade do Discord!
+- [x] Adicionar a imagem do personagem assim que você selecionar a carta dele.
 
 A [Pen](https://codepen.io/rhatiro/pen/JjZawpO) by [rhatiro](https://codepen.io/rhatiro) on [CodePen](https://codepen.io).
 
