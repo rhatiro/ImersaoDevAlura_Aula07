@@ -49,6 +49,8 @@ function sortearCarta() {
   // document.getElementById("btnJogar").disabled = false;
 
   exibirOpcoes();
+
+  document.getElementById("form").scrollIntoView({ behavior: "smooth" })
 }
 
 function botaoJogar() {
@@ -122,7 +124,10 @@ function jogar() {
   }
 
   console.log(cartaMaquina);
+
   document.getElementById("btnJogar").disabled = true;
   document.getElementById("nomeCartaMaquina").hidden = false;
   document.getElementById("jogarNovamente").hidden = false;
+
+  elementoResultado.scrollIntoView({ behavior: "smooth" });
 }

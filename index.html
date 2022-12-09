@@ -1,45 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Imersão Dev Alura - Aula 07 - SuperTrunfo - Lógica do jogo</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
-
-<head>
-  <title>
-    Imersão Dev - Aula 07
-  </title>
-</head>
 
 <body>
-  <div class="container">
-    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="" style="width: 50%">
-    <h1 class="page-title">Super Trunfo</h1>
+  <!-- partial:index.partial.html -->
+  <html>
 
-    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+  <head>
+    <title>
+      Imersão Dev - Aula 07
+    </title>
+  </head>
 
-    <form id="form">
-      <h2 id="nomeCartaJogador"></h2>
-      <h2 id="nomeCartaMaquina" hidden="true"></h2>
-      <h3 id="escolhaSeuAtributo" hidden="true">Escolha o seu atributo:</h3>
-      <div class="opcoes" id="opcoes"></div>
-      <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
-      <div id="resultado"></div>
+  <body>
+    <div class="container">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+        alt="" style="width: 50%">
+      <h1 class="page-title">Super Trunfo</h1>
 
-      <button id="jogarNovamente" onclick="document.location.reload()" hidden="true">Jogar novamente</button>
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
 
-    </form>
-  </div>
+      <form id="form">
+        <h2 id="nomeCartaJogador"></h2>
+        <h2 id="nomeCartaMaquina" hidden="true"></h2>
+        <h3 id="escolhaSeuAtributo" hidden="true">Escolha o seu atributo:</h3>
+        <div class="opcoes" id="opcoes"></div>
+        <button type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+        <div id="resultado"></div>
+
+        <button id="jogarNovamente" onclick="document.location.reload(); window.scrollTo({ top: 0 });" hidden="true">
+          Jogar novamente
+        </button>
+
+      </form>
+    </div>
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
 </body>
 
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
 </html>
