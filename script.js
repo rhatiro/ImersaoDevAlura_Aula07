@@ -102,7 +102,7 @@ function jogar() {
       "Você venceu, " +
       cartaJogador.nome +
       "!!!" +
-      "<br><br><img style='width: 50%' src='" +
+      "<br><br><img style='width: 33vw' src='" +
       cartaJogador.imagem +
       "'>";
   } else if (valorCartaJogador < valorCartaMaquina) {
@@ -116,7 +116,7 @@ function jogar() {
       atributoSelecionado +
       " de " +
       valorCartaMaquina +
-      "<br><br><img style='width: 50%' src='" +
+      "<br><br><img style='width: 33vw' src='" +
       cartaMaquina.imagem +
       "'>";
   } else {
